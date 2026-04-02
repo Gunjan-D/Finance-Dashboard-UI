@@ -17,20 +17,20 @@ Built as part of the Zorvyn Frontend Developer Intern assignment evaluation.
 
 ## Features at a Glance
 
-### 🏠 Dashboard Overview
+###  Dashboard Overview
 - **4 Summary Cards** — Total Balance, Total Income, Total Expenses, Savings Rate
 - **Balance Trend Line Chart** — visualises income, expenses and net savings across 6 months (Oct 2025 – Mar 2026)
 - **Spending Breakdown Donut Chart** — categorised expense distribution at a glance
 - **Recent Transactions** — quick-access list of the 5 latest entries with category colour coding
 
-### 💳 Transactions
+###  Transactions
 - **Paginated table** — 10 rows per page with date, description, category, type and amount
 - **Multi-field filtering** — keyword search, transaction type (Income / Expense), category dropdown, date range (From / To)
 - **Active filter chips** — visible tags with one-click removal per filter
 - **Sortable columns** — click Date, Category or Amount headers to toggle ascending / descending order
 - **Admin-only actions** — Add, Edit, Delete buttons appear only for the Admin role
 
-### 🔐 Role-Based UI (Simulated)
+###  Role-Based UI (Simulated)
 
 | Feature | Admin | Viewer |
 |---|---|---|
@@ -41,14 +41,14 @@ Built as part of the Zorvyn Frontend Developer Intern assignment evaluation.
 
 Switch roles instantly using the **Admin / Viewer toggle** in the top header bar. No login required — role state is persisted in `localStorage`.
 
-### 📊 Insights
+###  Insights
 - **Top Spending Category** — name, total amount, and percentage of all expenses
 - **Savings Rate** — compared against the recommended 20% threshold
 - **Monthly Income vs Expenses Bar Chart** — side-by-side comparison per month
 - **Category Breakdown Table** — all categories with colour-coded progress bars and percentages
 - **Auto-Generated Observations** — dynamic bullet points covering savings health, MoM expense changes, and best-savings month
 
-### ✨ UX & Quality
+###  UX & Quality
 - **Dark Mode** — toggled with the moon/sun icon; preference saved across sessions
 - **Data Persistence** — all transactions and role are stored in `localStorage`; changes survive page refresh
 - **Responsive Design** — collapsible sidebar on mobile, fluid grid layout
@@ -205,5 +205,3 @@ Live URL: **https://gunjan-d.github.io/Finance-Dashboard-UI/**
 - "Current date" context is April 2026 for insight calculations.
 
 ---
-
-*Submitted by Gunjan Deshpande for the Zorvyn Finance Dashboard UI — Frontend Developer Intern assignment.*
